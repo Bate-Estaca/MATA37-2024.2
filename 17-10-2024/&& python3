@@ -1,5 +1,0 @@
-idade = 10
-
-if idade > 10:
-    print("Maior que 10")
-print("incondicional")
