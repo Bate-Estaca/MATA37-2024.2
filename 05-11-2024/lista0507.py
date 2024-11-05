@@ -14,6 +14,6 @@ for value in arr:
         odd.append(value)
 
 print("números:",*arr)
-print("pares:",*even)
-print("ímpares",*odd)
+print("Quantidade de número pares:",len(even),"\tsão eles: ",*even)
+print("Quantidade de número ímpares:",len(odd),"\tsão eles: ",*odd)
 
