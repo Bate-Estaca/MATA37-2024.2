@@ -13,11 +13,11 @@ def analise(n):
         if salario <= 350:
             salario_350 +=1
 
-        filhos = input("Insira o número de filhos: ")
+        filhos = int(input("Insira o número de filhos: "))
         soma_filhos += filhos
 
         pessoas += 1
 
-    return [soma_salarios/n,soma_filhos/n,maior_salario,(salario_350/n)*100]
+    return soma_salarios/n,soma_filhos/n,maior_salario,(salario_350/n)*100
 
 print(analise(5))
