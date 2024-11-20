@@ -1,8 +1,8 @@
 def is_sorted(_list):
-    first = _list[0]
-    last = _list[len(_list) - 1 ]
-    if  first ==  last or first<last :
+    copy = _list[:]
+    copy.sort()
+    if copy == _list:
         return True
     return False
         
-print(is_sorted([4,5,3]))
+print(is_sorted(["a","b","c"]))
