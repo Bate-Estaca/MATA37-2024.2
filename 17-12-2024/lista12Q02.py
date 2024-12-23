@@ -18,5 +18,5 @@ for numEstado in range(len(estados)):
             maiorNumEstado = numEstado
             maiorNumCidade = numCidade
 
-print(f"A cidade mais populosa e´ a cidade {maiorNumCidade} do estado {maiorNumEstado}, com {maiorPopulacao} habitantes!")
-print(f"A me´dia da populaça˜o das capitais e´ {int(mediaCapitais/len(estados)*len(estados[0]))}")
+print(f"A cidade mais populosa é a cidade {maiorNumCidade} do estado {maiorNumEstado}, com {maiorPopulacao} habitantes!")
+print(f"A média da população das capitais é {int(mediaCapitais/len(estados)*len(estados[0]))}")
